@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* MOBILE LAYOUT */
+
+main {
+  padding-top: 50px;
+  display: flex;
+  background-color: white;
+  margin: auto;
+  flex-direction: column;
+}
+
+.about {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.photo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+.photo img {
+  width: 50%;
+}
+
+
+.mattia-lombardo-title {
+  justify-content: center;
+  display: flex;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.mattia-lombardo-note {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  align-self: center;
+  text-align: center;
+  color: grey;
+
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* TABLET LAYOUT */
+
+@media only screen and (min-width:800px) and (max-width:1279px) {
+
+  .photo img {
+    width: 30%;
+  }
+
+  .mattia-lombardo-note {
+    width: 60%;
+    font-size: 18px;
+  }
+
+}
+
+
+
+
+
+/* DESKTOP LAYOUT */
+
+@media only screen and (min-width:1280px) {
+
+  .photo img {
+    width: 20%;
+  }
+
+  .mattia-lombardo-note {
+    width: 50%;
+    font-size: 18px;
+    color: grey;
+  }
+
+  .mattia-lombardo-title {
+    font-size: 30px;
+
+  }
+}
