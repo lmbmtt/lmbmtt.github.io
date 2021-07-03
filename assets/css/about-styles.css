@@ -30,15 +30,16 @@ main {
 
 
 .photo {
-  display: inline-flex;
-  justify-content: center;
+  display: block;
   margin-top: 50px;
-  height: auto;
+  width: 100%;
 }
 
 
 .photo img {
   width: 50%;
+  position: relative;
+  left: 500px;
 }
 
 
