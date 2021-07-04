@@ -36,6 +36,10 @@ main {
   width: 100%;
 }
 
+.photo img {
+  width: 50%;
+}
+
 
 
 
