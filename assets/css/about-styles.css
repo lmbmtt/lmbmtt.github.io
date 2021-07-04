@@ -30,16 +30,16 @@ main {
 
 .photo {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   margin-top: 30px;
+  width: 100%;
 }
 
 .photo img {
   display: flex;
-  width: 50%;
-  height: auto;
-  align-self: center;
+  margin: auto;
+  width: 50vh;
 
 }
 
