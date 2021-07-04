@@ -37,7 +37,10 @@ main {
 }
 
 .photo img {
-  width: 50%;
+   width: auto;
+   max-width: 300px;
+   height: auto;
+   max-height: 300px;
 }
 
 
