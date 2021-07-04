@@ -403,13 +403,13 @@ main {
 
   .cover {
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-right: 30px;
     justify-content: flex-end;
   }
 
   .cover img {
-   width: 55vh;
+   width: 60vh;
   }
 
   .work-1 {
