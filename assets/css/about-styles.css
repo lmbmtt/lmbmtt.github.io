@@ -37,8 +37,8 @@ main {
 
 .photo img {
   display: flex;
-  width: 70%;
-  height: auto;
+  width: 50%;
+  height: 50%;
 
 }
 
