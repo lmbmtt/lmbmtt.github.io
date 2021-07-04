@@ -33,12 +33,11 @@ main {
   flex-direction: row;
   align-items: center;
   margin-top: 30px;
-  width: auto;
 }
 
 .photo img {
   display: flex;
-  margin: auto;
+  margin: 0 auto;
   width: 50vh;
 
 }
