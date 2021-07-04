@@ -33,14 +33,12 @@ main {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  width: 100%;
 }
 
 .photo img {
    width: auto;
-   max-width: 300px;
    height: auto;
-   max-height: 300px;
+
 }
 
 
