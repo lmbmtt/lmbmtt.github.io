@@ -31,13 +31,16 @@ main {
 
 .photo {
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
   margin-top: 50px;
+  width: 100%;
+  background-color: red;
 }
 
 
 .photo img {
-  width: 50%;
+ justify-content: center;
+ display: flex;
 }
 
 
