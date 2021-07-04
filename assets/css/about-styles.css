@@ -39,6 +39,7 @@ main {
   display: flex;
   width: 50%;
   height: auto;
+  align-self: center;
 
 }
 
