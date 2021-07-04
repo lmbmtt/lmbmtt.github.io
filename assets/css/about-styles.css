@@ -32,14 +32,10 @@ main {
 .photo {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin: auto;
+  width: 50%;
 }
 
-.photo img {
-   width: auto;
-   height: auto;
-
-}
 
 
 
