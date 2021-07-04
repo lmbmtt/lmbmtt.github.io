@@ -28,6 +28,19 @@ main {
   flex-direction: column;
 }
 
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.photo img {
+  display: flex;
+  width: 40%;
+  height: auto;
+
+}
 
 
 
